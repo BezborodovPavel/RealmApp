@@ -15,12 +15,13 @@ class TaskList: Object {
     
     var statusList: String {
         let completedTasksCount = tasks.filter("isComplete == true").count
-        if tasks.count == 0 {
+        let totalTaskCount = tasks.count
+        if totalTaskCount == 0 {
             return "0" }
-        else if tasks.count == completedTasksCount {
+        else if totalTaskCount == completedTasksCount {
             return "✔️"
         }else {
-            return String(tasks.count - completedTasksCount)
+            return String(totalTaskCount - completedTasksCount)
         }
     }
 }
