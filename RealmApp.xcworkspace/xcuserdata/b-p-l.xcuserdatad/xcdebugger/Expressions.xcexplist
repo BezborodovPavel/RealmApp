@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #3 in TasksViewController.tableView(_:trailingSwipeActionsConfigurationForRowAt:):TasksViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "completedTasks[3].name">
+            </PersistentString>
+            <PersistentString
+               value = "completedTasks[2].name">
+            </PersistentString>
+            <PersistentString
+               value = "self.completedTasks.count">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+            <PersistentString
+               value = "completedTasks[0].name">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "completedTasks[1].name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TaskListViewController.sortingList(_:):TaskListViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
