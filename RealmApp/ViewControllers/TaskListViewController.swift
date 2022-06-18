@@ -12,7 +12,6 @@ import RealmSwift
 class TaskListViewController: UITableViewController {
 
     var taskLists: Results<TaskList>!
-    var typeSort = "date"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -88,7 +87,7 @@ class TaskListViewController: UITableViewController {
     }
 
     @IBAction func sortingList(_ sender: UISegmentedControl) {
-        typeSort = sender.selectedSegmentIndex == 0 ? "date" : "name"
+        let typeSort = sender.selectedSegmentIndex == 0 ? "date" : "name"
         taskLists = taskLists.sorted(byKeyPath: typeSort)
         tableView.reloadData()
     }
